@@ -1,0 +1,46 @@
+<html>
+<head><title>CALCULATOR2</title>
+</head>
+<body>
+<form name="cform">
+<table style=" border:4px groove blue; border-radius:10px; position:relative; margin-left:auto; margin-right:auto;" width="150">
+
+<tr>
+<td colspan="4" align="center" style=" color:white; background:linear-gradient(145deg, skyblue, blue, skyblue);">CACULATOR</td>
+</tr>
+<tr>
+<td colspan="4"><input type="text" style="text-align:right; background-color:lightgrey;" name="display"></td>
+</tr>
+<tr>
+<td width="37.5"><input type="button" name="bnt1" value="1" onclick="cform.display.value += '1' " style="width:37px; color:red; border-radius:10px;  background-color:skyblue;"></td>
+<td width="37.5"><input style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt2" value="2" onclick="cform.display.value += '2' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt3" value="3" onclick="cform.display.value += '3' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt4" value="4" onclick="cform.display.value += '4' "></td>
+</tr>
+
+<tr>
+<td width="37.5"><input style="width:37px; color:red; border-radius:10px;  background-color:skyblue;"  type="button" name="bnt5" value="5" onclick="cform.display.value += '5' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt6" value="6" onclick="cform.display.value += '6' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt7" value="7" onclick="cform.display.value += '7' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt8" value="8" onclick="cform.display.value += '8' "></td>
+</tr>
+
+<tr>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt9" value="9" onclick="cform.display.value += '9' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt0" value="0" onclick="cform.display.value += '0' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt+" value="+" onclick="cform.display.value += '+' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt-" value="-" onclick="cform.display.value += '-' "></td>
+</tr width="37.5">
+
+<tr>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt*" value="*" onclick="cform.display.value += '*' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt/" value="/" onclick="cform.display.value += '/' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px;  background-color:skyblue;" type="button" name="bnt%" value="%" onclick="cform.display.value += '%' "></td>
+<td width="37.5"><input  style="width:37px; color:red; border-radius:10px; background-color:skyblue;" type="button" name="bntC" value="C" onclick="cform.display.value = ' ' "></td>
+</tr>
+<tr><td colspan ="4" width="150"><input style="width:170px; color:blue; background-color:lightgrey; border-radius:10px;" type="button" name="btn=" value="=" onclick ="cform.display.value= eval(cform.display.value) "></td></tr>
+</table>
+</form>
+</body>
+
+</html>
